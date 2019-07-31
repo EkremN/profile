@@ -1,0 +1,109 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(247,249,252);
+}
+
+h1 {
+  color: rgb(87,95,125);
+}
+
+p {
+  color: rgb(142,149,169);
+  margin: 20px 0;
+}
+
+h2 {
+  color: #6B72E1;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+a {
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul li a i {
+  font-size: 50px;
+}
+
+.btn-green {
+  color: #7ECE90;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  color: white;
+}
+
+.card-title, .card-footer{
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.card-footer ul li a i {
+    color: rgb(231,233,236);
+
+}
+
+.card-footer ul li a i:hover {
+  color: #000000;
+}
+
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  }
+
+  .btn-blue:hover {
+    background-color: black;
+  }
+
+/****************/
+/* Media Query */
+/****************/
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
